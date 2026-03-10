@@ -1,0 +1,22 @@
+.footer {
+    margin-left: 20px;
+    margin-right: 20px;
+    border-top: 1px rgba(33, 33, 33, 0.4) solid;
+}
+
+.footer__copyright {
+    margin:0;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Poppins;
+    font-weight: 400;
+    font-style: regular;
+    font-size: 16px;
+    line-height: 100%;
+    color: rgba(33, 33, 33, 0.7);
+
+
+}

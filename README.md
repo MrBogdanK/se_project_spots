@@ -1,21 +1,19 @@
-# Project 3: Spots
+# Spots
 
-### Overview  
+## Descritption and functionality: 
+The project is an interactive image-sharing website/application. Users going to be able to add and remove pictures. Users also will be able to like pictures that were posted by others. As well as make minor adjustments to their profile.
+ ## Technologies and techniques: 
+ - HTML
+ - CSS 
+ - Responsive design 
+ - CSS Grid 
+ - Media queries techniques
 
-* Intro  
-* Figma  
-* Images  
+# Figma design:
+  * [Link to the project on Figma](https://www.figma.com/file/BBNm2bC3lj8QQMHlnqRsga/Sprint-3-Project-%E2%80%94-Spots?type=design&node-id=2%3A60&mode=design&t=afgNFybdorZO6cQo-1)
   
-**Intro**
+  # Github
+  * [Link to the project on Github](https://github.com/MrBogdanK/se_project_spots.git)
+
+
   
-This project is made so all the elements are displayed correctly on popular screen sizes. We recommend investing more time in completing this project, since it's more difficult than previous ones.  
-  
-**Figma**  
-  
-* [Link to the project on Figma](https://www.figma.com/file/BBNm2bC3lj8QQMHlnqRsga/Sprint-3-Project-%E2%80%94-Spots?type=design&node-id=2%3A60&mode=design&t=afgNFybdorZO6cQo-1)
-  
-**Images**  
-  
-The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster. 
-  
-Good luck and have fun!
