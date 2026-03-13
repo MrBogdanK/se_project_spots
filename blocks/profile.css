@@ -12,13 +12,12 @@ color: rgba(33, 33, 33, 0.7);
 font-family: "Poppins", "Arial", sans-serif;
 font-weight: 500;
 font-size: 16px;
-font-style: medium;
 line-height: 100%;
 display: flex;
 align-items: center;
 gap: 8px;
 transition: background-color 0.3s ease;
-cursor: url(../images/pointer.svg), auto;
+cursor: pointer;
 
 }
 
@@ -31,11 +30,10 @@ color: rgba(33, 33, 33, 1);
     background-color: rgba(33, 33, 33, 1);
     color: #FCF5EF;
     width: 149px;
-    height: 53px;
+    height: 52px;
     border-radius: 8px;
     border: none;
     font-family: "Poppins", "Arial", sans-serif;
-    font-style: medium;
     font-weight: 500;
     font-size: 16px;
     line-height: 100%;
@@ -45,7 +43,7 @@ color: rgba(33, 33, 33, 1);
     gap: 8px;
     align-self: flex-end;
     transition: background-color 0.3s ease;
-    cursor: url(../images/pointer.svg), auto;
+    cursor: pointer;
 
 
     
@@ -61,7 +59,7 @@ color: rgba(33, 33, 33, 1);
     margin-right: 20px;
     height: 190px;
     width: 190px;
-    border-radius: 16px;
+    border-radius: 8px;
 
 }
 
@@ -74,7 +72,6 @@ color: rgba(33, 33, 33, 1);
 margin: 0;
 font-family: "Poppins", "Arial", sans-serif;
  font-weight: 500;
- font-style: medium;
  font-size: 16px; 
 line-height: 100%;
 color: rgba(33, 33, 33, 0.7);
@@ -89,9 +86,8 @@ max-width: 420px;
 
 .profile__name {
     margin: 0 0 12px;
-    font-size: 36.44px;
+    font-size: 32px;
     font-family: "Poppins", "Arial", sans-serif;
-    font-style: medium;
     line-height: 100%;
     font-weight: 500;
     display: -webkit-box;
@@ -128,10 +124,6 @@ max-width: 420px;
 .profile__name {
 
     font-family: "Poppins", "Arial", sans-serif;
-    font-size: 20px;
-    font-style: medium;
-    font-weight: 500;
-    line-height: 1;
     margin: 0 0 6px;
     max-width: 288px;
 }
@@ -142,9 +134,8 @@ max-width: 420px;
 
 .profile__description {
 margin: 0 0 32px;
-font-family: "Poppins", "Arial" sans-serif;
+font-family: "Poppins", Arial, sans-serif;
 font-weight: 500;
-font-style: Medium;
 font-size: 16px;
 line-height: 100%;
 text-align: center;

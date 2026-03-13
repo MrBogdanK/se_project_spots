@@ -9,11 +9,17 @@ The project is an interactive image-sharing website/application. Users going to 
  - CSS Grid 
  - Media queries techniques
 
-# Figma design:
+## Figma design:
   * [Link to the project on Figma](https://www.figma.com/file/BBNm2bC3lj8QQMHlnqRsga/Sprint-3-Project-%E2%80%94-Spots?type=design&node-id=2%3A60&mode=design&t=afgNFybdorZO6cQo-1)
   
-  # Github
-  * [Link to the project on Github](https://github.com/MrBogdanK/se_project_spots.git)
+  ## Github
+  * [Link to the project on Github](https://mrbogdank.github.io/se_project_spots/)
 
 
-  
+
+  ## Project Pitch Video:
+  * [Link to the pitch video](https://drive.google.com/file/d/1FAPEv6BwXC6NX5t9DAsYr55sTDUi1hAH/view?usp=share_link)
+
+
+
+ 
