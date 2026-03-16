@@ -11,9 +11,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: Poppins;
+    font-family: "Poppins", "Arial", sans-serif;
     font-weight: 400;
-    font-style: regular;
+    font-style: normal;
     font-size: 16px;
     line-height: 100%;
     color: rgba(33, 33, 33, 0.7);
