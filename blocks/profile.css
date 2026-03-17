@@ -124,10 +124,12 @@ max-width: 420px;
 .profile__name {
     margin: 0 0 6px;
     max-width: 288px;
+    font-size: 20px;
 }
 
 .profile__column {
     margin: 0 0 20px;
+    align-items: center;
 }
 
 .profile__description {
