@@ -56,7 +56,7 @@
     .card__image {
         height: 288px;
     }
-    .card-tittle {
+    .card__title {
         max-width: 235px;
     }
 }
