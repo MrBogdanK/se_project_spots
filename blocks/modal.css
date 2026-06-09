@@ -103,6 +103,8 @@ opacity: 40%;
 @media screen and (max-width: 627px) {
 .modal__title {
     font-size: 20px;
+    margin-top: 0px;
+    margin-bottom: 24px;
 }
 
 .modal__submit-button {
