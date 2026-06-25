@@ -1,141 +1,129 @@
 .modal {
-    visibility: hidden;
-    opacity: 0;
-    transition:visibility 0s linear 0.5s,opacity 0.5s linear;
-    background-color:#00000080;
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-
-    
-
+  visibility: hidden;
+  opacity: 0;
+  transition:
+    visibility 0s linear 0.5s,
+    opacity 0.5s linear;
+  background-color: #00000080;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
 }
 
-   .modal_is-opened {
-    visibility: visible;
-    opacity:1;
-    transition-delay:0s;
+.modal_is-opened {
+  visibility: visible;
+  opacity: 1;
+  transition-delay: 0s;
 }
-
 
 .modal__container {
-    position: relative;
-    background-color: #fff;
-    max-width: 730px;
-    width: 100%;
-    border-radius: 8px;
-    padding-left: 50px;
-    padding-top: 32px;
-    padding-right: 50px;
-    padding-bottom: 32px;
+  position: relative;
+  background-color: #fff;
+  max-width: 730px;
+  width: 100%;
+  border-radius: 8px;
+  padding-left: 50px;
+  padding-top: 32px;
+  padding-right: 50px;
+  padding-bottom: 32px;
 }
 
 .modal__title {
-    margin-top: 0px;
-    margin-bottom: 32px;
-    color: #212121;
-    font-weight: 500;
-    line-height: 100%;
-    font-size: 32px;
-    font-family: Poppins, Arial, Helvetica, sans-serif;
-
+  margin-top: 0px;
+  margin-bottom: 32px;
+  color: #212121;
+  font-weight: 500;
+  line-height: 100%;
+  font-size: 32px;
+  font-family: Poppins, Arial, Helvetica, sans-serif;
 }
 
 .modal__form {
-    display: flex;
-    flex-direction: column;
-    gap: 32px;
-    
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
 }
-
 
 .modal__close-button {
-position: absolute;
-top: 32px;
-right: 50px;
-background: none;
-border: none;
-width: 40px;
-height: 40px;
-opacity: 40%;
-cursor: pointer;
+  position: absolute;
+  top: 32px;
+  right: 50px;
+  background: none;
+  border: none;
+  width: 40px;
+  height: 40px;
+  opacity: 40%;
+  cursor: pointer;
 }
 
-
-
-
-
 .modal__input {
-    display: block;
-    width: 100%;
-    height: 52px;
-    border: 1px solid rgba(33,33,33,0.4);
-    border-radius: 8px ;
-    margin: 8px 0 0;
-    padding: 12px 16px;
-    color: #212121B2;
-    font-family: Poppins, Arial, Helvetica, sans-serif;
-    font-weight: 500;
-    line-height: 110.00000000000001%;
-    font-size: 20px;
-    
-
-    
-    
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  height: 52px;
+  border: 1px solid rgba(33, 33, 33, 0.4);
+  border-radius: 8px;
+  margin: 8px 0 0;
+  padding: 12px 16px;
+  color: #212121b2;
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  line-height: 110.00000000000001%;
+  font-size: 20px;
 }
 
 .modal__input::placeholder {
-    color: #2121214D;
+  color: #2121214d;
 }
 
 .modal__submit-button {
-    background: #212121;
-    width: 156px;
-    height: 52px;
-    border-radius: 8px;
-    color: #fff;
-   font-size: 16px;
-   padding: 0;
-   font-family: Poppins, Arial, Helvetica, sans-serif;
-   font-weight: 500;
-   line-height: 100%;
-   letter-spacing: 0%;
-   cursor: pointer;
-   
+  background: #212121;
+  width: 156px;
+  height: 52px;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 16px;
+  padding: 0;
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  line-height: 100%;
+  letter-spacing: 0%;
+  cursor: pointer;
 }
 
 .modal__submit-button:hover {
- background-color: rgba(33, 33, 33, 0.8);
+  background-color: rgba(33, 33, 33, 0.8);
 }
 
 @media screen and (max-width: 627px) {
-.modal__title {
+  .modal__title {
     font-size: 20px;
     margin-top: 0px;
     margin-bottom: 24px;
-}
+  }
 
-.modal__submit-button {
+  .modal__submit-button {
     width: 100%;
     max-width: none;
-
+  }
+ 
+  .modal__close-button {
+  top: 12px;
+  right: 12px;
 }
-
 
 }
 
 
 @media (max-width: 320px) {
   .modal__container {
-   padding: 22px 12px 12px ;
+    padding: 22px 12px 12px;
   }
-
-
 }
-

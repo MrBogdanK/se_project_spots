@@ -13,13 +13,20 @@ const newPostModal = document.querySelector("#new-post-modal");
 const newPostCloseButton = newPostModal.querySelector(".modal__close-button");
 const newPostForm = newPostModal.querySelector(".modal__form");
 
-const newPostCardImageEl = newPostModal.querySelector(".card__image");
-const newPostCardCaptionEl = newPostModal.querySelector(".card__title");
-
 const newPostCardImageInput = newPostModal.querySelector("#card-image-input");
 const newPostCardCaptionInput = newPostModal.querySelector(
   "#card-caption-input",
 );
+const editProfileNameInput = editProfileModal.querySelector(
+  "#profile-name-input",
+);
+const editProfileDescriptionInput = editProfileModal.querySelector(
+  "#profile-description-input",
+);
+
+const profileNameEl = document.querySelector(".profile__name");
+
+const profileDescritptionEl = document.querySelector(".profile__description");
 
 function openModal(modal) {
   modal.classList.add("modal_is-opened");
@@ -31,24 +38,12 @@ function closeModal(modal) {
 
 function handleNewPostSubmit(evt) {
   evt.preventDefault();
-  console.log("submitting");
-  newPostCardImageEl.textContent = newPostCardImageInput.value;
-  newPostCardCaptionEl.textContent = newPostCardCaptionInput.value;
+  console.log(newPostCardImageInput.value, newPostCardCaptionInput.value);
+ 
 
   closeModal(newPostModal);
 }
 newPostForm.addEventListener("submit", handleNewPostSubmit);
-
-const editProfileNameInput = editProfileModal.querySelector(
-  "#profile-name-input",
-);
-const editProfileDescriptionInput = editProfileModal.querySelector(
-  "#profile-description-input",
-);
-
-const profileNameEl = document.querySelector(".profile__name");
-
-const profileDescritptionEl = document.querySelector(".profile__description");
 
 editProfileButton.addEventListener("click", function () {
   editProfileNameInput.value = profileNameEl.textContent;
