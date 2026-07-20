@@ -102,6 +102,6 @@ function handleEditProfileSubmit(evt) {
 }
 editProfileForm.addEventListener("submit", handleEditProfileSubmit);
 
-InitialCards.forEach(function(item) {
+initialCards.forEach(function(item) {
   console.log(item.name);
 });
