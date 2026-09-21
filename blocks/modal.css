@@ -24,13 +24,12 @@
 
 .modal__container {
   position: relative;
-  background-color: #fff;
   max-width: 730px;
   width: 100%;
   border-radius: 8px;
-  padding-left: 50px;
+  padding-left: 20px;
   padding-top: 32px;
-  padding-right: 50px;
+  padding-right: 140px;
   padding-bottom: 32px;
 }
 
@@ -102,6 +101,52 @@
   background-color: rgba(33, 33, 33, 0.8);
 }
 
+.modal__card-image {
+  max-width: 100%;
+  max-width: 80vw;
+  max-height: 80vh;
+  aspect-ratio: 4096/2731;
+  object-fit: cover;
+  display: block;
+  border-radius: 8px;
+  
+  
+  
+}
+
+.modal__container_type_image {
+  position: relative;
+  
+}
+
+.modal__card-title {
+  background: #212121;
+  color: white;
+  padding: 4px 8px;
+  margin: 12px 0px;
+  display: inline-block;
+  border-radius: 8px;
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 120%;
+
+  
+
+}
+
+.modal__close-button_type-image {
+  top: 25px;
+  right: -20px;
+  background: none;
+  height: 40px;
+  width: 40px;
+  border: none;
+  opacity: 40%;
+  cursor: pointer;
+}
+
+
 @media screen and (max-width: 627px) {
   .modal__title {
     font-size: 20px;
@@ -124,10 +169,29 @@
     
 
 }
+
+
+
+.modal__close-button_type-image {
+  top: -20px;
+  right: 10px;
+ 
+  
+}
+
 }
 
 
+
+
+
 @media (max-width: 320px) {
+  .modal__close-button_type-image {
+  top:  -15px;
+  right: 10px;
   
+}
+
+
   }
 

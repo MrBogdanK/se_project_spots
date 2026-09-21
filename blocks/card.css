@@ -1,5 +1,6 @@
 .card {
     max-width: 413px;
+    position: relative;
 }
 
 .card__image {
@@ -31,6 +32,33 @@
     opacity: 100%;
 }
 
+.card__trash-button {
+background-image: url(../images/Group\ 35-2.svg), url(../images/Ellipse\ 3.svg);
+position: absolute;
+height: 32px;
+width: 32px;
+top: 19px;
+right: 20px;
+padding: 0;
+border: none;
+background-color: transparent;
+background-repeat: no-repeat, no-repeat;
+background-size: 12px 15px, 32px 32px;
+background-position: center,center;
+}
+
+.card__trash-button:hover {
+background-image: url(../images/State=Hover.svg);
+height: 32px;
+width: 32px;
+background-color: transparent;
+background-repeat: no-repeat;
+background-size: cover;
+cursor: pointer;
+}
+
+
+
 .card__content {
     display: flex;
     align-items: center;
@@ -50,6 +78,14 @@
     overflow: hidden;
     max-width: 353px;
     margin: 0;
+}
+
+.card__like-button_liked {
+background-image: url(../images/State=Liked.svg);
+
+
+
+
 }
 
 
