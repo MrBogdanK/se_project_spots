@@ -23,6 +23,7 @@
 }
 
 .modal__container {
+  background-color: #fff;
   position: relative;
   max-width: 730px;
   width: 100%;
@@ -57,8 +58,12 @@
   border: none;
   width: 40px;
   height: 40px;
-  opacity: 40%;
+  opacity: 0.4;
   cursor: pointer;
+}
+
+.modal__close-button {
+  opacity: 1;
 }
 
 .modal__input {
@@ -102,11 +107,9 @@
 }
 
 .modal__card-image {
-  max-width: 100%;
   max-width: 80vw;
   max-height: 80vh;
-  aspect-ratio: 4096/2731;
-  object-fit: cover;
+  object-fit: contain;
   display: block;
   border-radius: 8px;
   
@@ -142,8 +145,12 @@
   height: 40px;
   width: 40px;
   border: none;
-  opacity: 40%;
+  opacity: 0.4;
   cursor: pointer;
+}
+
+.modal__close-button_type-image:hover {
+  opacity: 1;
 }
 
 

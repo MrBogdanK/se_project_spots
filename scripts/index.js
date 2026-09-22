@@ -58,7 +58,7 @@ const editProfileDescriptionInput = editProfileModal.querySelector("#profile-des
 
 const profileNameEl = document.querySelector(".profile__name");
 
-const profileDescritptionEl = document.querySelector(".profile__description");
+const profileDescriptionEl = document.querySelector(".profile__description");
 
 const cardList = document.querySelector (".cards__list");
 
@@ -89,6 +89,7 @@ function handleCardImageClick(evt) {
 const enlargeCardPicture = evt.target;
 modalCardTitle.textContent = enlargeCardPicture.closest(".card").querySelector(".card__title").textContent;
 modalCardImage.src = enlargeCardPicture.closest(".card").querySelector(".card__image").src;
+modalCardImage.alt = modalCardTitle.textContent;
   openModal(enlargePictureModal);
 }
 
@@ -115,6 +116,7 @@ function handleNewPostSubmit(evt) {
   const newCard = { name: newPostCardCaptionInput.value, link: newPostCardImageInput.value };
   const card = getCardElement(newCard);
   cardList.prepend(card);
+  evt.target.reset();
  
 
   closeModal(newPostModal);
@@ -129,7 +131,7 @@ closeButtonTypeImage.addEventListener("click",function()  {
 
 editProfileButton.addEventListener("click", function () {
   editProfileNameInput.value = profileNameEl.textContent;
-  editProfileDescriptionInput.value = profileDescritptionEl.textContent;
+  editProfileDescriptionInput.value = profileDescriptionEl.textContent;
 
   openModal(editProfileModal);
 });
@@ -151,7 +153,7 @@ function handleEditProfileSubmit(evt) {
   console.log("submitting");
 
   profileNameEl.textContent = editProfileNameInput.value;
-  profileDescritptionEl.textContent = editProfileDescriptionInput.value;
+  profileDescriptionEl.textContent = editProfileDescriptionInput.value;
   closeModal(editProfileModal);
 }
 editProfileForm.addEventListener("submit", handleEditProfileSubmit);

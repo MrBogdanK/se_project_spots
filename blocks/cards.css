@@ -12,6 +12,19 @@
     padding: 20px 0 40px;
     border-bottom: 1px solid #21212166;
 }
+.card__image {
+    cursor: pointer;
+    transition: opacity 0.3s ease;
+    
+
+}
+
+.card__image:hover {
+    opacity: 0.2;
+    
+    
+}
+
 
 @media screen and (max-width:627px) {
     .cards__list {
