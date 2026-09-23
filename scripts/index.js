@@ -112,7 +112,6 @@ function closeModal(modal) {
 
 function handleNewPostSubmit(evt) {
   evt.preventDefault();
-  console.log(newPostCardImageInput.value, newPostCardCaptionInput.value);
   const newCard = { name: newPostCardCaptionInput.value, link: newPostCardImageInput.value };
   const card = getCardElement(newCard);
   cardList.prepend(card);
